@@ -124,5 +124,5 @@ DeepPCT is an integrated framework designed to identify PTM crosstalk events wit
     ```
 
 
-### Citation
+## Citation
 Improved prediction of post-translational modification crosstalk within proteins using DeepPCT, *Submitted*, 2024.
