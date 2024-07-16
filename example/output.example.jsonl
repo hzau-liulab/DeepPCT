@@ -1,0 +1,2 @@
+{"seq_id": "P48431", "sites": [{"site": ["S251", "K245"], "prediction_score": 0.6783167167425156, "prediction_result": "Positive"}, {"site": ["K245", "S249"], "prediction_score": 0.06511083447009325, "prediction_result": "Negative"}, {"site": ["Y277", "S249"], "prediction_score": 0.03774637453317642, "prediction_result": "Negative"}]}
+{"seq_id": "P56693", "sites": [{"site": ["T240", "K55"], "prediction_score": 0.29571153268337247, "prediction_result": "Positive"}, {"site": ["T244", "K55"], "prediction_score": 0.22387358837008475, "prediction_result": "Positive"}]}

@@ -1,0 +1,5 @@
+P48431	S251	K245	prediction_score	0.678	prediction_result	Positive
+P48431	K245	S249	prediction_score	0.065	prediction_result	Negative
+P48431	Y277	S249	prediction_score	0.038	prediction_result	Negative
+P56693	T240	K55	prediction_score	0.296	prediction_result	Positive
+P56693	T244	K55	prediction_score	0.224	prediction_result	Positive
