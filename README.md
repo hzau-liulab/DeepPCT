@@ -2,7 +2,7 @@
 
 ## Introduction
 
-DeepPCT is an integrated framework designed to identify PTM crosstalk events within a given protein. It comprises a sequence-based module, DeepPCTseq, a structure-based module, DeepPCTstr, and a integration module. When processing a query protein, its three-dimensional structure is predicted using AlphaFold2. The sequence, structural, and PTM pairs information are then handled by the DeepPCTseq and DeepPCTstr modules, both of which use well-designed approaches to extract informative features and predict PTM crosstalk pairs. The outputs from these modules are integrated to produce the final prediction results.
+DeepPCT is a deep learning algorithm to identify PTM crosstalk within proteins using AlphaFold2-based structures. In this algorithm, one deep learning classifier was built for sequence-based prediction by combining the residue and residue pair embeddings with cross-attention techniques, while the other classifier was established for structure-based prediction by integrating the structural embedding and a graph neural network. Meanwhile, a machine learning classifier was established using a series of novel structural descriptors and a random forest model to complement the structural deep learning classifier. Finally, the three classifiers were merged to maximize their complementarity through a weighted combination strategy.
 ![](figures/flowchart.png)
 
 ## Key Advantages
@@ -124,5 +124,5 @@ DeepPCT is an integrated framework designed to identify PTM crosstalk events wit
     ```
 
 
-## Citation
+### Citation
 Improved prediction of post-translational modification crosstalk within proteins using DeepPCT, *Submitted*, 2024.
