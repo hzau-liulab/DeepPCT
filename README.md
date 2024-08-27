@@ -6,7 +6,7 @@ DeepPCT is a deep learning algorithm to identify PTM crosstalk within proteins u
 ![](figures/flowchart.png)
 
 ## Key Advantages
-- **Improved Performance:** DeepPCT consistently outperforms SOTA methods across different evaluation scenarios.
+- **Improved Performance:** DeepPCT outperforms SOTA methods across different evaluation scenarios.
 - **Fast:** DeepPCT offers 60x faster inference speed than our previous model (PCTpred).
 - **General**: Trained on AlphaFold2 predicted structures, DeepPCT can be applied to any protein when only its sequence is available.
 
