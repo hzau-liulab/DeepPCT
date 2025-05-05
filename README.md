@@ -125,13 +125,4 @@ DeepPCT is a deep learning algorithm to identify PTM crosstalk within proteins u
 
 
 ## Citation
-```bibtex
-@article{huang2024deeppct,
-    author = {Huang, Yu-Xiang and Liu, Rong},
-    title = {Improved prediction of post-translational modification crosstalk within proteins using DeepPCT},
-    year = {2024},
-    doi = {10.1093/bioinformatics/btae675},
-    url = {https://doi.org/10.1093/bioinformatics/btae675},
-    journal = {Bioinformatics}
-}
-```
+If you find this work useful, please cite our paper (*Improved prediction of post-translational modification crosstalk within proteins using DeepPCT*).
